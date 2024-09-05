@@ -6,7 +6,7 @@ import Weather from "./Weather.js"
 export default function App() {
   return (
     <div className="App container">
-      <Weather />
+      <Weather defaultCity="New York"/>
       <footer>
         This project coded by{" "}
         <a href="https://www.delac.io" target="_blank" rel="noreferrer">Fatemeh</a>
