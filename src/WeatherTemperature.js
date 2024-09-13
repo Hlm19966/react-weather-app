@@ -15,7 +15,7 @@ export default function WeatherTemperature(props) {
         return (
      <div className="col-6 d-flex align-items-centerd">
         <span className="temperature">{Math.round(props.celsius)}</span>
-        <span className="unit d-inline-flex">°c / <a href="/" onClick={convertToFahrenheit}>°F</a></span> 
+        <span className="unit d-inline-flex">°C / <a href="/" className="text-decoration-none" onClick={convertToFahrenheit}>°F</a></span> 
      </div>
     );
     } else {
